@@ -1,0 +1,55 @@
+.tanks{
+  padding-top: 130px;
+  text-align: center;
+  margin-bottom: 100px;
+
+  h3{
+    color: $primary;
+    margin-bottom: 20px;
+  }
+
+  h5{
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  .btn-cta{
+    margin: 30px 0;
+  }
+
+  .social{
+    margin-bottom: 30px;
+    a{
+      padding: 0 8px;
+    }
+  }
+
+  .whatsapp{
+    .btn{
+      &:first-child{
+        margin-right: 8px;
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 767px) {
+  .tanks{
+    padding-top: 110px;
+    text-align: center;
+  
+    h3{
+      color: $primary;
+      margin-bottom: 20px;
+    }
+  
+    .btn{
+      margin: 30px 0;
+    }
+  }
+}

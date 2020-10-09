@@ -1,0 +1,40 @@
+#support {
+    padding-top: 40px;
+    padding-bottom: 80px;
+   
+    h2 {
+      text-transform: uppercase;
+    }
+
+    #logo_semtraco {
+        width: 260px;
+    }
+
+    #logo_case {
+        width: 225px;
+    }
+
+    #logo_concesionario, #logo_repuestos {
+        width: 200px;
+    }
+
+    .btn {
+        text-transform: uppercase;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    @media (max-width: 767px) {
+
+        h3 {
+          margin-bottom: 1.5rem;
+        }
+
+        p {
+        //   margin-bottom: 3rem;
+        }
+
+    }
+  }
+  

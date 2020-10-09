@@ -1,0 +1,41 @@
+.navbar{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color:$secondary;
+  // position: absolute;
+  // top: 0;
+  // z-index: 99;
+  
+  .navbar-brand{
+    img{
+      height: 50px;
+    }
+  }
+  &.isTanks{
+    background-color: $primary;
+    text-align: center;
+    .navbar-brand{
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+
+}
+
+@media (max-width: 767px) {
+  .navbar{
+    padding-top: 20px;
+    padding-bottom: 16px;
+    text-align: center;
+  
+    .navbar-brand{
+      margin-right: auto;
+      margin-left: auto;
+      img{
+        height: 50px;
+      }
+    }
+  }
+}
