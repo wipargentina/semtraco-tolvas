@@ -1,11 +1,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFire,
-  faDollarSign,
-  faShippingFast,
-} from "@fortawesome/free-solid-svg-icons";
+import { faDollarSign } from "@fortawesome/free-solid-svg-icons";
 
 const Benefits = (props) => (
   <div className="benefits">
