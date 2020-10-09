@@ -1,14 +1,14 @@
 .hero {
   position: relative;
-  background-image: url('../../statics/hero-1.jpg');
+  background-image: url('../../statics/hero-2.jpg');
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
 
   // background-color: #000;
   // height: 600px;
 
   .darken {
-    background-color: rgba(#000, 0.7);
+    background-color: rgba(#000, 0.3);
     height: 600px;
   }
 
@@ -69,7 +69,8 @@
   .hero {
     .darken {
       height: 1200px;
-      background-color: rgba(#000, 0.8);
+      // background-color: rgba(#000, 0.8);
+      background-color: rgba(#000, 0.1);
     }
 
     .content {
