@@ -1,24 +1,16 @@
 import React from "react";
 
-
 import tolvaVentajas from "../assets/statics/tolva-ventajas.jpg";
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faFire,
-//   faDollarSign,
-//   faShippingFast,
-// } from "@fortawesome/free-solid-svg-icons";
-
 const Typologies = (props) => (
-    <section id="typologies" className="py-5 bg_4">
+    <section id="typologies" >
         <div className="container text-center">
             <div className="row justify-content-center">
-                <h2 className="col-12 mb-4">Tolvas autodescargables Semtraco</h2>
+                <h2 className="col-12 mb-5">Tolvas autodescargables Semtraco</h2>
                 <h3 className="col-12 mb-4">¡Diseño dinámico!</h3>
                 <h5 className="col-12 mb-4">Gran capacidad para asistir a equipos de alto rendimiento dentro de los lotes de cosecha.</h5>
-                <h2 className="col-12 mt-3">Ventajas</h2>
-                <ul className="col-12 col-lg-6 mt-4 text-left">
+                <h2 className="col-12 mt-5">Ventajas</h2>
+                <ul className="col-12 col-lg-6 mt-4 text-left pl-4">
                     <li><strong>Mayor productividad de la cosechadora</strong>. Hasta un 20 % de disminución en tiempos muertos de cosecha, de acuerdo a la extensión de los lotes y a la versión que elijas</li>
                     <li><strong>Mayor maniobrabilidad y versatilidad</strong> que la cosechadora, para desplazamiento dentro del terreno, atrancamiento y descarga sobre camiones y acoplados</li>
                     <li><strong>Menor tasa de roturas en cosechadoras</strong>  por traslados dentro de los lotes de cosecha</li>
@@ -28,12 +20,9 @@ const Typologies = (props) => (
                     <li>Por el color no te preocupes. <strong>¡Pedí tu preferido!</strong></li>
                     <li><strong>¡Post venta Semtraco!</strong> Tu tiempo nos importa y nos hace ser más eficientes</li>
                 </ul>
-                <div className="col-12 col-md-10 col-lg-6 px-5 my-auto">
+                <div className="col-12 col-md-10 col-lg-6 px-3 px-md-5 my-auto">
                     <img className="img-fluid rounded-circle img_tolva_ventajas" src={tolvaVentajas} alt="ícono pago con soja"/>
                 </div>
-
-                
-                
             </div>
         </div>
     </section>

@@ -1,11 +1,7 @@
 .hero {
   position: relative;
-  background-image: url('../../statics/hero-2.jpg');
   background-size: cover;
-  background-position: center center;
-
-  // background-color: #000;
-  // height: 600px;
+  background-color: $secondary;
 
   .darken {
     background-color: rgba(#000, 0.3);
@@ -21,12 +17,7 @@
     align-items: center;
 
     .container {
-      // margin-top: 50px;
-      // display: flex;
-      // align-items: center;
-      // justify-content: center;
-
-    
+      
       h1, h2, h3, h4 {
         color: white;
       }
@@ -65,12 +56,31 @@
   }
 }
 
+@media (min-width: 1200px) {
+
+  .hero {
+    background-position: right -20px;
+    background-image: url('../../statics/hero-2.jpg');
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .hero {
+    background-position: right center;
+    background-image: url('../../statics/hero-2.jpg');
+  }
+
+}
+
 @media (max-width: 767px) {
   .hero {
+    background-position: center center;
+    background-image: url('../../statics/hero-767-1200.jpg');
     .darken {
       height: 1200px;
-      // background-color: rgba(#000, 0.8);
-      background-color: rgba(#000, 0.1);
+      background-color: rgba(#000, 0.25);
     }
 
     .content {

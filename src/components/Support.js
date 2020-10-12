@@ -8,11 +8,11 @@ import logoConcesionario from "../assets/statics/semtraco-1-concesionario-2019.p
 import logoRepuestos from "../assets/statics/semtraco-1-venta-repuestos 2019.png";
 
 const Suport = (props) => (
-    <section id="support" className="py-5">
+    <section id="support">
         <div className="container text-center">
             <div className="row justify-content-center">
-                <h2 className="col-12 mt-2">Servicio técnico posventa asegurado</h2>
-                <h3 className="col-12 mt-2">Con el respaldo de:</h3>
+                <h2 className="col-12 mb-5">Servicio técnico posventa asegurado</h2>
+                <h3 className="col-12">Con el respaldo de:</h3>
                 <div className="col-12 mt-2">
                     <img id="logo_semtraco" src={logoSemtraco} alt="Isologotipo Semtraco"></img>
                 </div>
