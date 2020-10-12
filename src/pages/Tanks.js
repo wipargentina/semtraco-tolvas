@@ -10,11 +10,21 @@ const Tanks =  (props) => (
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-md-8">
-          <h3>¡Muchas gracias por completar el formulario!</h3>
-          <p>En breve nuestro equipo se contactará contigo</p>
-          <p>Te invitamos a que descargues los datos técnicos de nuestras tolvas</p>
-          <a href="https://drive.google.com/file/d/1ouYpUnQTFfZMWeDl_acJUc08D3tSWsWW/view?usp=sharing" alt="programacion" className="btn btn-primary btn-cta" target="_blank" rel="noopener noreferrer">Descargar manual</a>
-          <p>
+          <h2>¡Muchas gracias por completar el formulario!</h2>
+          <h4 className="mt-4">En breve nuestro equipo se contactará contigo</h4>
+          <p className="mt-5">Te invitamos a que descargues los datos técnicos de nuestras tolvas:</p>
+          <div className="row justify-content-center mt-2 mb-lg-5">
+            <div className="col-12 col-md-6 col-lg-4">
+              <a href="#" alt="Manual Tolva eb20-2 - 20 toneladas" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Modelo eb20-2 <strong>- 20 tn</strong></a>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <a href="#" alt="Manual Tolva eb26-2 - 26 toneladas" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Modelo eb26-2 <strong>- 26 tn</strong></a>
+            </div>
+            <div className="col-12 col-lg-4">
+              <a href="#" alt="Manual Tolva eb33-2 - 33 toneladas" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Modelo eb33-2 <strong>- 33 tn</strong></a>
+            </div>
+          </div>
+          <p className="mt-4">
             Visitanos en nuestra web <br/>
             <a href="https://www.semtraco.com.ar/" target="_blank" rel="noopener noreferrer">www.semtraco.com.ar</a>          
           </p>
