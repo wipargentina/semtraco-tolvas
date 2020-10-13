@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-// import axios from "axios";
+import axios from "axios";
 
 class Form extends Component {
     constructor(props) {
@@ -11,14 +11,14 @@ class Form extends Component {
             email: '',
             phone: '',
             location: '',
-            tags: 'remates',
+            tags: '',
             isSending: false,
             isSended: false,
             isError: false
         };
   
         this.handleChange = this.handleChange.bind(this);
-        this.handleOptionChange = this.handleOptionChange.bind(this);
+        // this.handleOptionChange = this.handleOptionChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
   
@@ -28,11 +28,11 @@ class Form extends Component {
       });
     }
   
-    handleOptionChange(e) {
-      this.setState({
-        tags: e.target.value
-      });
-    }
+    // handleOptionChange(e) {
+    //   this.setState({
+    //     tags: e.target.value
+    //   });
+    // }
   
     handleSubmit(e) {
         e.preventDefault();
@@ -40,36 +40,36 @@ class Form extends Component {
             isSending: true
         });
   
-      console.log(this.state);
+        // console.log(this.state);
   
-    //   axios
-    //     .post(
-    //       'https://alfredosmondino.wipargentina.com/backend/mail.php',
-    //       this.state
-    //     )
-    //     .then((response) => {
-    //       console.log(response);
-    //       if (response.status === 200) {
-    //         this.setState({
-    //           fname: '',
-    //           lname: '',
-    //           email: '',
-    //           phone: '',
-    //           location: '',
-    //           //isSending: false,
-    //           isSended: true
-    //         });
-    //         window.location.assign(process.env.PUBLIC_URL + '/gracias');
-    //       }
-    //       if (response.status === 400) {
-    //       }
-    //     })
-    //     .catch((error) => {
-    //       console.log(error);
-    //       this.setState({
-    //         isError: true
-    //       });
-    //     });
+        axios
+            .post(
+                'https://semtraco.wipargentina.com/backend/mail.php',
+                this.state
+            )
+            .then((response) => {
+                // console.log(response);
+                if (response.status === 200) {
+                    this.setState({
+                        fname: '',
+                        lname: '',
+                        email: '',
+                        phone: '',
+                        location: '',
+                        //isSending: false,
+                        isSended: true
+                    });
+                    window.location.assign(process.env.PUBLIC_URL + '/gracias');
+                }
+                if (response.status === 400) {
+                }
+            })
+            .catch((error) => {
+                // console.log(error);
+                this.setState({
+                    isError: true
+                });
+            });
     }
   
     render() {
@@ -137,7 +137,7 @@ class Form extends Component {
                                 >
                                 {isSending ? 'ENVIANDO ...' : '¡CONTACTARME!'}
                             </button>
-                    </div>
+                        </div>
                     </div>
                 </form>
             </div>
