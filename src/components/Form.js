@@ -40,7 +40,7 @@ class Form extends Component {
             isSending: true
         });
   
-        // console.log(this.state);
+        console.log(this.state);
   
         axios
             .post(
@@ -65,7 +65,7 @@ class Form extends Component {
                 }
             })
             .catch((error) => {
-                // console.log(error);
+                console.log(error);
                 this.setState({
                     isError: true
                 });
