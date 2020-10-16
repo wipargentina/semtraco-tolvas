@@ -17,7 +17,6 @@ const Typologies = (props) => (
                     <li><strong>Baja inversión de capital</strong>, para lograr mayor productividad</li>
                     <li>Conocemos nuestro diseño de punta a punta, <strong>optimizamos el producto hacia un bajo mantenimiento</strong></li>
                     <li><strong>Materiales Premium, acabados de alta calidad</strong></li>
-                    <li>Por el color no te preocupes. <strong>¡Pedí tu preferido!</strong></li>
                     <li><strong>¡Post venta Semtraco!</strong> Tu tiempo nos importa y nos hace ser más eficientes</li>
                 </ul>
                 <div className="col-12 col-md-10 col-lg-6 px-3 px-md-5 my-auto">
