@@ -24,10 +24,12 @@ const Tanks =  (props) => (
               <a href="https://drive.google.com/file/d/1hFami_l2YuWbeJmJ5fWx4bO9ghlHvhxB/view?usp=sharing" alt="Manual Tolva eb33-2 - 33 toneladas" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Modelo eb33-2 <strong>- 33 tn</strong></a>
             </div>
           </div>
+
           <p className="mt-4">
             Visitanos en nuestra web <br/>
-            <a href="https://www.semtraco.com.ar/" target="_blank" rel="noopener noreferrer">www.semtraco.com.ar</a>          
+            <a href="https://www.semtraco.com.ar/?utm_source=landing-tolvas&utm_medium=cta&utm_campaign=trafico-sitio-web" target="_blank">www.semtraco.com.ar</a>          
           </p>
+
           <p>o en nuestras redes sociales</p>
           <div className="social">
             <a className="mx-2" href="https://www.facebook.com/semtraco.sa/" target="_blank" rel="noopener noreferrer">
@@ -43,7 +45,13 @@ const Tanks =  (props) => (
               />
             </a>
           </div>
-          
+
+          <div className="row justify-content-center mt-5">
+            <p>También podés ingresar a nuestra tienda online y aprovechar nuestras ofertas</p>
+            <div className="col-12">
+              <a href="https://www.semtraco.com.ar/es/home/tienda/tienda.html?utm_source=landing-tolvas&utm_medium=cta&utm_campaign=trafico-sitio-web-area-ecommerce" alt="Link a nuestra tienda online" className="btn btn-primary" target="_blank" >Recorré nuestra  <strong> tienda online</strong></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
