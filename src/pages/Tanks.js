@@ -27,7 +27,7 @@ const Tanks =  (props) => (
 
           <p className="mt-4">
             Visitanos en nuestra web <br/>
-            <a href="https://www.semtraco.com.ar/?utm_source=landing-tolvas&utm_medium=cta&utm_campaign=trafico-sitio-web" target="_blank">www.semtraco.com.ar</a>          
+            <a href="https://www.semtraco.com.ar/?utm_source=landing-tolvas&utm_medium=cta&utm_campaign=trafico-sitio-web" target="_blank" rel="noopener noreferrer">www.semtraco.com.ar</a>          
           </p>
 
           <p>o en nuestras redes sociales</p>
@@ -49,7 +49,7 @@ const Tanks =  (props) => (
           <div className="row justify-content-center mt-5">
             <p>También podés ingresar a nuestra tienda online y aprovechar nuestras ofertas</p>
             <div className="col-12">
-              <a href="https://www.semtraco.com.ar/es/home/tienda/tienda.html?utm_source=landing-tolvas&utm_medium=cta&utm_campaign=trafico-sitio-web-area-ecommerce" alt="Link a nuestra tienda online" className="btn btn-primary" target="_blank" >Recorré nuestra  <strong> tienda online</strong></a>
+              <a href="https://www.semtraco.com.ar/es/home/tienda/tienda.html?utm_source=landing-tolvas&utm_medium=cta&utm_campaign=trafico-sitio-web-area-ecommerce" alt="Link a nuestra tienda online" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Recorré nuestra  <strong> tienda online</strong></a>
             </div>
           </div>
         </div>
