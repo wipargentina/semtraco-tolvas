@@ -28,7 +28,7 @@ const Tanks =  (props) => (
             Visitanos en nuestra web <br/>
             <a href="https://www.semtraco.com.ar/" target="_blank" rel="noopener noreferrer">www.semtraco.com.ar</a>          
           </p>
-          <p>ó en nuestras redes sociales</p>
+          <p>o en nuestras redes sociales</p>
           <div className="social">
             <a className="mx-2" href="https://www.facebook.com/semtraco.sa/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon

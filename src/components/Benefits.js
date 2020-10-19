@@ -33,7 +33,7 @@ const Benefits = (props) => (
               <img className="img-fluid" src={iconoPagoSoja} alt="ícono pago con soja"/>
             </div>
             <div className="benefits-item-title">
-            Pago total con Soja
+            Pago total con soja
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Benefits = (props) => (
               <img className="img-fluid" src={iconoPostVenta} alt="ícono post venta Semtraco"/>
             </div>
             <div className="benefits-item-title">
-            Servicio Post Venta Semtraco
+            Servicio post venta Semtraco
             </div>
           </div>
         </div>
