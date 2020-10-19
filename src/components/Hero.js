@@ -13,7 +13,7 @@ const Hero = (props) => (
           <div className="col-md-7 text-center">
             <h1>Nueva línea  de tolvas Autodescargables</h1>
             <img id="logo_tolva_semtraco" src={logoTolvaSemtraco} alt="Logotipo Tolvas Semtraco"></img>
-            <h4>Tres versiones disponibles: <br/>22-26-33 tn.</h4>
+            <h4>Tres versiones disponibles: <br/>20-26-33 tn.</h4>
             <h2>Agrandá tu equipo ahora...<br />
             ¡Entrega inmediata!</h2>
           </div>
